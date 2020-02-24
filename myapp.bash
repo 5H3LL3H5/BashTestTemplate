@@ -2,7 +2,6 @@
 
 errecho() {
   echo "Error: $1" 2>&1
-  exit 1
 }
 
 main() {
