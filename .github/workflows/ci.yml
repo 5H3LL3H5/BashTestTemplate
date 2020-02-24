@@ -7,6 +7,9 @@ jobs:
     steps:
       - name: Setting up BATS
         run: sudo npm install -g bats
-        
+      
+      - name: Check out code
+        uses: actions/checkout@v2
+              
       - name: Running tests
         run: bats -t -r .
