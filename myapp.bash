@@ -16,4 +16,8 @@ main()
   exit 0
 }
 
-main "$@"
+if [ "$BASH_SOURCE" == "$0" ]; then
+  # code in here only gets executed if
+  # script is run directly on the commandline
+  main "$@"
+fi
