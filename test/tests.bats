@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 setup() {
-  . "$BATS_TEST_DIRNAME/../myapp.sh"
+  . "myapp.sh"
 }
 
 teardown() {
