@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 setup() {
-  . "myapp.sh"
+  . "myapp.bash"
 }
 
 teardown() {
