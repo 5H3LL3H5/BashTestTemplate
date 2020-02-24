@@ -9,4 +9,4 @@ jobs:
         run: sudo npm install -g bats
         
       - name: Running tests
-        run: bats -t -r .
+        run: bats -t -r test/tests.bats
